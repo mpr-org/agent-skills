@@ -9,7 +9,7 @@ Skills são pacotes de conhecimento especializado que ensinam agentes a executar
 ## Estrutura do Repositório
 
 ```
-agent-skills/
+.
 ├── README.md
 ├── AGENTS.md                    # Instruções gerais para agentes neste repositório
 └── .github/
