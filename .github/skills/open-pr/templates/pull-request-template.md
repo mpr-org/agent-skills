@@ -6,15 +6,12 @@
 
 <!-- Marque com [x] o(s) tipo(s) que se aplicam: -->
 
-- [ ] `feat` — Nova funcionalidade
-- [ ] `fix` — Correção de bug
+- [ ] `feat` — Nova skill ou funcionalidade
+- [ ] `fix` — Correção em skill existente
 - [ ] `docs` — Apenas documentação
-- [ ] `style` — Formatação, sem mudança de lógica
-- [ ] `refactor` — Refatoração sem nova feature ou fix
-- [ ] `perf` — Melhoria de performance
-- [ ] `test` — Adição ou correção de testes
-- [ ] `chore` — Tarefas de build, CI, configuração
-- [ ] `revert` — Reverte um commit anterior
+- [ ] `style` — Formatação, sem mudança de conteúdo
+- [ ] `refactor` — Reestruturação sem mudança de comportamento
+- [ ] `chore` — Manutenção, CI, configuração
 
 ## Issues relacionadas
 
@@ -25,20 +22,19 @@
 
 ## Como testar
 
-<!-- Descreva os passos para validar as mudanças localmente. -->
+<!-- Descreva como validar as mudanças. Para skills: qual prompt invocar e qual resultado esperado. -->
 
 1. 
 2. 
-3. 
 
 ## Checklist
 
-- [ ] O código compila sem erros
-- [ ] Os testes existentes continuam passando
-- [ ] Novos testes foram adicionados (se aplicável)
-- [ ] A documentação foi atualizada (se aplicável)
-- [ ] Não há dados sensíveis (tokens, senhas, chaves) no código
-- [ ] O título do PR segue o padrão Conventional Commits
+- [ ] Frontmatter YAML válido (sem tabs, aspas em valores com `:`)
+- [ ] `name` no frontmatter corresponde ao nome da pasta
+- [ ] `description` contém gatilhos de invocação claros (`Use when: ...`)
+- [ ] A skill foi adicionada à seção "Skills Disponíveis" do `README.md` (se nova skill)
+- [ ] Nenhum dado sensível incluído (tokens, senhas, chaves)
+- [ ] Título do PR segue Conventional Commits
 
 ## Capturas de tela (se aplicável)
 

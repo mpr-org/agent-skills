@@ -35,3 +35,7 @@
 - [ ] A skill foi adicionada à seção "Skills Disponíveis" do `README.md` (se nova skill)
 - [ ] Nenhum dado sensível incluído (tokens, senhas, chaves)
 - [ ] Título do PR segue Conventional Commits
+
+## Capturas de tela (se aplicável)
+
+<!-- Adicione screenshots ou gravações para mudanças visuais. Remova esta seção se não for aplicável. -->
